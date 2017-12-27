@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <title>Coworking</title>
+    <meta name="viewport" content="width=1100, initial-scale=1.0">
     <!-- <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -12,7 +14,7 @@
     <div class="wrapper">
 
         <div class="header">
-            <div class="container">
+            <div class="container clearfix">
 
                 <div class="header__top">
 
@@ -37,7 +39,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="aside">
                     <div class="menu">
                         <ul class="menu__list">
@@ -86,10 +88,10 @@
                                 <img src="https://raw.githubusercontent.com/yourunwebdev/2tz/master/img/icons/flower.png" alt="flower" class="special__icon">
                             </div>
                             <div class="special__type">уникальность</div>
+                            <div class="special__subtitle">Создан для вашего
+                                <br> комфортного отдыха</div>
 
                             <ul class="special__list">
-                                <li class="special__item">Создан для вашего
-                                    <br> комфортного отдыха</li>
                                 <li class="special__item">Кофе/чай </li>
                                 <li class="special__item">Шкаф (5 кг)</li>
                                 <li class="special__item">Рабочее место</li>
@@ -102,9 +104,9 @@
                                 <img src="https://raw.githubusercontent.com/yourunwebdev/2tz/master/img/icons/star.png" alt="star" class="special__icon">
                             </div>
                             <div class="special__type">премиум-класс</div>
+                            <div class="special__subtitle">Для любителей <br> хороших впечатлений</div>
 
                             <ul class="special__list">
-                                <li class="special__item">Для любителей хороших впечатлений</li>
                                 <li class="special__item">Обед+кофе </li>
                                 <li class="special__item">Шкаф (10 кг)</li>
                                 <li class="special__item">Детское кресло</li>
@@ -117,9 +119,9 @@
                                 <img src="https://raw.githubusercontent.com/yourunwebdev/2tz/master/img/icons/palette.png" alt="color palette" class="special__icon">
                             </div>
                             <div class="special__type">лакшери-стулья</div>
+                            <div class="special__subtitle">Всё самое лучшее <br>  и незабываемое</div>
 
                             <ul class="special__list">
-                                <li class="special__item">Всё самое лучшее и незабываемое</li>
                                 <li class="special__item">Джакузи</li>
                                 <li class="special__item">Шкаф (15 кг)</li>
                                 <li class="special__item">Табуретка</li>
@@ -145,12 +147,13 @@
                                 <div class="listing__description">
                                     <div class="listing__date">12.10.2016</div>
                                     <div class="listing__subtitle">Чёрная дыра скидок!</div>
-                                    <div class="listing__text"></div>
-                                    <p>
-                                        Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит,
-                                        скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате
-                                        24/7.Используйте шкаф для хранения личных вещей.
-                                    </p>
+                                    <div class="listing__text">
+                                        <p>
+                                            Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит,
+                                            скорость интернета будет стабильной в любое время суток. Коворкинг работает в
+                                            формате 24/7.Используйте шкаф для хранения личных вещей.
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
 
@@ -164,12 +167,13 @@
                                     <div class="listing__date">01.02.2016</div>
                                     <div class="listing__subtitle">Заражай друзей, получай призы!
                                     </div>
-                                    <div class="listing__text"></div>
-                                    <p>
-                                        Заражай друзей, получай призы! Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет
-                                        выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы,
-                                        встречи с инвесторами или менторами для резидентов.
-                                    </p>
+                                    <div class="listing__text">
+                                        <p>
+                                            Заражай друзей, получай призы! Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет
+                                            выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
+                                            мастер-классы, встречи с инвесторами или менторами для резидентов.
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
 
@@ -183,12 +187,14 @@
                                     <div class="listing__date">22.12.2015</div>
                                     <div class="listing__subtitle">Новое рабочее место для бизнесменов.
                                     </div>
-                                    <div class="listing__text"></div>
-                                    <p>
-                                        Новое рабочее место для бизнесменов. Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она
-                                        включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно
-                                        пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.
-                                    </p>
+                                    <div class="listing__text">
+                                        <p>
+                                            Новое рабочее место для бизнесменов. Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она
+                                            включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно
+                                            пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной,
+                                            посудой.
+                                        </p>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -196,7 +202,8 @@
                         <div class="pagination">
                             <div class="pagination__text">Страница 1 из 7</div>
                             <div class="pagination__pages">
-                                <a href="https://raw.githubusercontent.com/yourunwebdev/2tz/master/img/icons/left.png" class="pagination__button-left"><</a>
+                                <a href="#" class="pagination__button-left">
+                                </a>
                                 <ul class="pagination__list">
                                     <li class="pagination__item">
                                         <a href="#" class="pagination__link">1</a>
@@ -220,7 +227,7 @@
                                         <a href="#" class="pagination__link">7</a>
                                     </li>
                                 </ul>
-                                <a href="https://raw.githubusercontent.com/yourunwebdev/2tz/master/img/icons/right.png" class="pagination__button-right">></a>
+                                <a href="#" class="pagination__button-right"></a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +237,7 @@
     </div>
 
     <div class="footer">
-        <div class="container">
+        <div class="container clearfix">
             <div class="footer__column">
                 <div class="copyright">
                     Сделано с любовью и старанием
