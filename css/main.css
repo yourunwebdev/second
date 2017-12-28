@@ -285,10 +285,7 @@ padding-left: 50px;
     background-color: #f5f5f5;
     background-repeat: no-repeat;
 }
-.listing__img--none{
-    background-image: url('../img/content/noneavatar.png')
-    background-position: contain;
-}
+
 
 .listing__description{
     float: right;
