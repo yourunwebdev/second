@@ -40,7 +40,7 @@
 } 
 
 .wrapper {
-    min-width: 1100px;
+    min-width: 1140px;
     position: relative;
     overflow: hidden;
     min-height:100%;
@@ -59,8 +59,9 @@
 }
 .container {
 
-    width: 1060;
+    width: 1100px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 
@@ -126,7 +127,7 @@ a
     padding-top: 67px; 
 }
 .aside{
-    width: 190px;
+    width: 120px;
     float:left;
 }
 .menu__item{
@@ -186,42 +187,43 @@ background-image: url('../img/icons/wallet_icon_hover.png')
 .main-content{
     width: 910px;
     float: left;
-    margin-top: 65px;
+padding-left: 70px;
 }
 
-.special{
-    margin-right: 160px;
-}
-.special__column{
-    width:33.3%;
-    height:300px;
-    display:inline-block;
-    vertical-align: middle;
-}
-.special__column--left{
-    float: left;
-}
-
-
-.special__column--right{
-    float: left;
-}
-
-
-.special__title{
+.title{
     font-size: 49px;
     font-weight: 700;
-    margin-bottom: 65px;
+    margin-bottom: 67px;
+}
+
+.special__columns{
+    margin-bottom: 90px;
+}
+.special__lists{
+    display:inline-block;
+    width: 230px;
+}
+
+.special__item{
+    text-align: left;
+}
+
+.special__text {
+    color: #221f1f;
+}
+.special__column{
+    text-align: center;
 }
 
 .special__img{
+    display: inline-block;
     height:70px;
     width:70px;
     background-color: #27273e;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 65px;
+    margin-bottom: 35px;
 }
 
 .special__icon{
@@ -240,21 +242,22 @@ background-image: url('../img/icons/wallet_icon_hover.png')
     text-align: left;
     margin-bottom: 30px;
 }
+
 .special__item, .special__subtitle{
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.special__subtitle, .special__type {
+text-align: center;
 }
 .special__list {
 list-style: disc;
-list-style-position: inside;
+color: #c02169;
+padding-left: 50px;
 }
 
-.title{
-    font-size: 49px;
-    font-weight: 700;
-    margin-top: 90px;
-    margin-bottom: 70px;
-}
+
 
 .listing{
     padding-bottom: 60px;
@@ -372,6 +375,7 @@ list-style-position: inside;
 
 .logo {
     display: inline-block;
+    padding-top: 5px;
 }
 
 .footer__column{
