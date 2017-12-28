@@ -122,7 +122,9 @@ a
     color: #c02169;
     text-decoration: underline;
 }
-
+.reviews-content{
+    margin-bottom: 20px;
+}
 .content{
     padding-top: 67px; 
 }
@@ -358,10 +360,43 @@ padding-left: 50px;
     color: #fff;
 }
 
+.discount{
+    text-align: left;
+    height: 175px;
+    height:170px;
+    background-color: #27273e;
+    margin-bottom: 60px;
+    background-image: url('../img/decor/discount.png')
+}
+
+.discount__img{
+    display: inline-block;
+    vertical-align: middle;
+    height:10px;
+    width:1em;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.discount__text{
+    color:#fff;
+    font-weight: 300;
+    font-size:18px;
+    padding-left: 230px;
+    padding-top: 45px;
+}
+.discount__value {
+    color:#ec1e79;
+    font-weight: 700;
+    font-size:18px;
+}
+.discount__text, .discount__value {
+    display: inline-block;
+}
 .footer {
     height: 77px;
     background-color: #27273e;
-    min-width:1100px;
+    min-width: 1140px;
     margin-top: -77px;
 }
 
