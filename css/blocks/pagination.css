@@ -29,10 +29,10 @@
     
 }
 .pagination__button-left{
-    background-image: url('../img/icons/arrow_left.png')
+    background-image: url('../../img/icons/arrow_left.png')
 }
 .pagination__button-right{
-    background-image: url('../img/icons/arrow_right.png')
+    background-image: url('../../img/icons/arrow_right.png')
     }
 .pagination__item{
     display: inline-block;
