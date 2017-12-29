@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Coworking</title>
     <meta name="viewport" content="width=1100, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -218,21 +217,67 @@
         <div class="discount">
             <div class="container ">
                 <div class="discount__text">
-            
-                            Для наших новых клиентов мы предлагаем <div class="discount__value"> скидку 50% </div> на первый <br> день! Приходите, чтобы лично оценить преимущества коворкинга<br> «Воркадиум»!
-                <!-- <img src="../img/decor/discount.png" alt="discount" class="discount__img"> -->
-            </div>
-            </div>
-        </div>
 
-        <div class="form">
-                <div class="container ">
-                
-                    
+                    Для наших новых клиентов мы предлагаем
+                    <div class="discount__value"> скидку 50% </div> на первый
+                    <br> день! Приходите, чтобы лично оценить преимущества коворкинга
+                    <br> «Воркадиум»!
+                    <!-- <img src="../img/decor/discount.png" alt="discount" class="discount__img"> -->
                 </div>
-
+            </div>
         </div>
+        <div class="questionnaire">
+            <div class="container ">
+                <form action="">
+                    <div class="form__outer">
+                    <div class="form__inner">
+                        <h2 class="form__title">Оставить отзыв</h2>
+                        <div class="form__content">
+                            <div class="form__row">
+                                <div class="form__data">
+                                    <label class="form__field-title">Ваше имя</label>
+                                    <input type="text" class="form__input" placeholder="Андрей">
+                                </div>
+                                <div class="form__data form__data--margin">
+                                    <label class="form__field-title" >Ссылка на профиль VK</label>
+                                    <input type="text" class="form__input" placeholder="vk.com/example">
+                                </div>
+                            </div>
 
+                            <div class="form__row">
+                                <label class="form__field-title">Текст отзыва</label>
+                                <textarea name="" class="form__review" placeholder="Мне понравилось"></textarea>
+                            </div>
+
+                            <div class="form__row">
+                                <div class="form__controls">
+                                    <label class="form__controls-title">Отображать фото в отзыве?</label>
+                                    <div class="form__controls-buttons">
+                                        <div class="form__controls-trigger">
+                                            <input type="radio" name="photo" class="form__radio">
+                                            <div class="form__radio-color"></div>
+                                            <div class="form__trigger-title">Да</div>
+                                        </div>
+                                        <div class="form__controls-trigger form__controls-trigger--margin">
+                                            <input type="radio" name="photo" class="form__radio">
+                                            <div class="form__radio-color"></div>
+                                            <div class="form__trigger-title">Нет</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__btn">
+                                    <button class="form__send" type="submit">
+                                        Отправить
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <footer class="footer">

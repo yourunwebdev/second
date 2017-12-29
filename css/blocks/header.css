@@ -1,0 +1,39 @@
+
+.header{
+    background-color: #27273e;
+}
+.header__top{
+    padding-top: 10px;
+}
+
+.header__top-left, .header__top-right { 
+    width: 50%;
+}
+
+.header__top-left{
+    float: left;
+} 
+.header__top-right{
+    float: left;
+    text-align: right;
+}
+.banner{
+    display: block;
+}
+.contacts{
+    display: inline-block;
+}
+.contacts__phone{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts__schedule{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c02169;
+    text-decoration: underline;
+}
